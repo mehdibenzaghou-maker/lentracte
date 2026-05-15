@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050505">
+<title>Pizza & Burgers &mdash; L&rsquo;Entracte</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+</head>
+<body><nav>
+  <a href="index.html" class="nav-logo"><img src="lentracte.png" alt="L'Entracte" class="nav-logo-img"></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Accueil</a></li>
+    <li class="nav-dd">
+      <a href="menu.html">Menu <span class="caret">&#9662;</span></a>
+      <ul class="dd-menu">
+        <li><a href="entrees-chaudes.html">Entr&eacute;es Chaudes</a></li>
+        <li><a href="entrees-froides.html">Entr&eacute;es Froides</a></li>
+        <li><a href="pates.html">P&acirc;tes &amp; Risotto</a></li>
+        <li><a href="healthy.html">Healthy</a></li>
+        <li><a href="suites.html">Suites &amp; Grillades</a></li>
+        <li><a href="asiatique.html">Asiatique &amp; Sushis</a></li>
+        <li><a href="pizza-burgers.html">Pizza &amp; Burgers</a></li>
+        <li><a href="poisson.html">Plats Poisson</a></li>
+        <li><a href="drinks.html">Boissons</a></li>
+        <li><a href="sweets.html">Sweets</a></li>
+      </ul>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="burger"><span></span><span></span><span></span></div>
+</nav>
+<div class="mob-nav" id="mobNav">
+  <a href="index.html">Accueil</a><a href="menu.html">Menu</a>
+  <div class="mob-sec-label">&mdash; Sections &mdash;</div>
+  <a href="entrees-chaudes.html">Entr&eacute;es Chaudes</a>
+  <a href="entrees-froides.html">Entr&eacute;es Froides</a>
+  <a href="pates.html">P&acirc;tes &amp; Risotto</a>
+  <a href="healthy.html">Healthy</a>
+  <a href="suites.html">Suites &amp; Grillades</a>
+  <a href="asiatique.html">Asiatique &amp; Sushis</a>
+  <a href="pizza-burgers.html">Pizza &amp; Burgers</a>
+  <a href="poisson.html">Plats Poisson</a>
+  <a href="drinks.html">Boissons</a>
+  <a href="sweets.html">Sweets</a>
+  <a href="contact.html">Contact</a>
+</div><div class="sec-hero">
+  <p class="sec-label">Nos Spécialités</p>
+  <h1 class="sec-title">Pizza &amp; Burgers</h1>
+  <div class="ornament"><div class="ornament-gem"></div></div>
+  <a href="menu.html" class="back-link">&#8592; Retour au Menu</a>
+</div><div class="subsec-hdr"><h2>Pizzas Artisanales</h2></div><section class="dishes-wrap"><div class="dishes-grid"><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20margueritte.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Margu&eacute;rite"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Margu&eacute;rite</div>
+    <div class="dish-price">800 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/abd%20pizza%20vegetarienne.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza V&eacute;g&eacute;tarienne"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza V&eacute;g&eacute;tarienne</div>
+    <div class="dish-price">900 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20champignons.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Champignon"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Champignon</div>
+    <div class="dish-price">1 000 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20poulet%20roti.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Poulet R&ocirc;ti Fum&eacute;"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Poulet R&ocirc;ti Fum&eacute;</div>
+    <div class="dish-price">1 000 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%203%20fromages.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza 3 Fromages"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza 3 Fromages</div>
+    <div class="dish-price">1 100 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20poulet.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Poulet"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Poulet</div>
+    <div class="dish-price">1 100 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20thon.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Thon"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Thon</div>
+    <div class="dish-price">1 100 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20viande%20hache%CC%81e.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Viande Hach&eacute;e"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Viande Hach&eacute;e</div>
+    <div class="dish-price">1 200 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20pate%20complete.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza P&acirc;te Compl&egrave;te"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza P&acirc;te Compl&egrave;te</div>
+    <div class="dish-price">1 200 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20anchoix.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Anchoix"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Anchoix</div>
+    <div class="dish-price">1 200 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20buratta.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Buratta"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Buratta</div>
+    <div class="dish-price">1 500 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20chocolat.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Chocolat"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Chocolat</div>
+    <div class="dish-price">1 500 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20mixte.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Mixte"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Mixte</div>
+    <div class="dish-price">1 500 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20saumon.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Saumon"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Saumon</div>
+    <div class="dish-price">1 600 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%204%20saisons.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza 4 Saisons"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza 4 Saisons</div>
+    <div class="dish-price">1 700 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20camembert.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Camembert Pan&eacute;"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Camembert Pan&eacute;</div>
+    <div class="dish-price">1 800 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20fruits%20de%20mer.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Fruits de Mer"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Fruits de Mer</div>
+    <div class="dish-price">2 000 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/pizza%20healthy.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Pizza Compl&egrave;te Avocat Saumon"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Pizza Compl&egrave;te Avocat Saumon</div>
+    <div class="dish-price">2 200 DA</div>
+  </div>
+</div></div></section><div class="subsec-hdr"><h2>Burgers</h2></div><section class="dishes-wrap"><div class="dishes-grid"><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/burger%20poulet%20pane%CC%81.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Burger Poulet Pan&eacute;"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Burger Poulet Pan&eacute;</div>
+    <div class="dish-price">1 000 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/burger%20americain.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Burger Am&eacute;ricain"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Burger Am&eacute;ricain</div>
+    <div class="dish-price">1 400 DA</div>
+  </div>
+</div><div class="dish-card reveal">
+  <div class="dish-3d" data-glb="https://pub-af2ca8496e8b49a1b36648ba0d4ec3c0.r2.dev/burger%20parisien.glb">
+    <div class="btn-layer">
+      <div class="cube-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#C47808" stroke-width="1.2"/><path d="M20 4V36M4 12L20 20L36 12" stroke="#C47808" stroke-width="0.8" stroke-dasharray="2 2"/></svg></div>
+      <button class="voir-btn" onclick="loadDishViewer(this)">
+        <span class="vb-t">Voir mon plat</span>
+        <span class="vb-i"><i class="fas fa-cube"></i></span>
+      </button>
+    </div>
+    <model-viewer
+      src=""
+      alt="Burger Parisien"
+      auto-rotate
+      camera-controls
+      ar
+      min-camera-orbit="auto 15deg auto"
+      max-camera-orbit="auto 88deg auto"
+      camera-orbit="0deg 68deg 2m"
+      shadow-intensity="1.2"
+      exposure="1.1">
+    </model-viewer>
+  </div>
+  <div class="dish-info">
+    <div class="dish-name">Burger Parisien</div>
+    <div class="dish-price">1 400 DA</div>
+  </div>
+</div></div></section><footer>
+  <div class="ft-grid">
+    <div>
+      <div class="ft-name">L&rsquo;Entracte</div>
+      <p class="ft-tag">Restaurant &middot; Desserts &middot; Draria</p>
+      <div class="ft-soc">
+        <a href="https://www.instagram.com/lentracte.dz/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@lentracte.dz" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.facebook.com/p/Lentracte-100092657416059/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+    <div>
+      <div class="ft-hd">Navigation</div>
+      <ul class="ft-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">Menu Complet</a></li>
+        <li><a href="asiatique.html">Sushis &amp; Asiatique</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="ft-contact">
+      <div class="ft-hd">Contact</div>
+      <p>0550 70 70 29</p><p>0550 22 25 23</p>
+      <p style="margin-top:.6rem;color:rgba(201,160,48,.38);font-style:italic;font-family:var(--fb)">PX9V+G9 Draria</p>
+    </div>
+  </div>
+  <div class="ft-bottom">
+    <p class="ft-copy">&copy; 2025 <span>L&rsquo;Entracte</span> &middot; Restaurant Draria</p>
+    <p class="ft-copy">R&eacute;alis&eacute; avec <span>&hearts;</span></p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body></html>
